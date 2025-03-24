@@ -238,6 +238,12 @@ export namespace Auth0Strategy {
 		 * The URL of your application where the Identity Provider will redirect the
 		 * user after they've logged in or authorized your application.
 		 */
+		audience?: string;
+
+		/**
+		 * The URL of your application where the Identity Provider will redirect the
+		 * user after they've logged in or authorized your application.
+		 */
 		redirectURI: URLConstructor;
 
 		/**
